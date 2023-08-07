@@ -1,0 +1,255 @@
+@media screen and (max-width: 1024px) {
+    
+    .main-container{
+        margin-top:-70px;
+    }
+    .profile-area{
+    width: 80%;   
+    }
+    .title-area{
+        height: 100%;
+        width: 80%;
+        padding:5%
+       
+    }
+       div.social-area{
+        margin-top:-70px;
+        }
+        
+       .profile{
+        margin-top:60px;
+       }
+        .space-area{
+           width: 100px;
+        }
+
+        .About_me{
+            margin-top: 50px;
+        }
+        .about_text{
+            
+            margin-right: 50px;
+        }
+        .left_car_icn{
+            margin-left:25%;
+        }
+        
+    .photo{
+    margin-top: 200px;
+    min-height: 350px;
+    min-width: 350px;
+    margin-top: 35px;
+    }
+    div.title_head{
+        font-size:60px;
+    }
+    .contact_head h1{
+        font-size:18px;
+        
+    }
+    .contact_head h3{
+        font-size:15px;
+        
+    }
+    .lang_head h1{
+        font-size:10px;
+    }
+    .lang_head h3{
+        font-size:14px; 
+    }
+    .nav-toggle{
+        display:none;
+    }       
+}
+
+
+@media screen and (max-width: 768px) {
+    .main-container{
+        margin-top:-50px;
+    }
+    div.title_head{
+        font-size:45px;
+    }
+    div.about_section{
+       margin-left: 0px;
+    }
+    div.about_text{
+        font-size:4vw;
+           width:300px;
+            height: auto;
+        margin-left:15px;
+    }
+      .download_btn{
+        margin-left:70px;
+      }
+      .skill_main{
+        margin-left: -100px;
+      }
+   
+    div.lang h1{
+        font-size:18px;
+    }
+    div.lang h3{
+        font-size:12px;
+    }
+    div.skill_folder{
+        margin-left: 10px;
+    }
+    .contact_head h1{
+        font-size:13px;
+        
+    }
+    .contact_head h3{
+        font-size:11px;
+        
+    }
+    div.aa{
+        margin-left:-10px ;
+    }
+    .nav-toggle{
+        display:none;
+    }
+}
+
+
+
+@media screen and (max-width: 550px){
+   
+div.nav-items{
+    display: block;
+    position: fixed;
+    
+    top: 80px;
+    left: -100%;
+    background-color: seagreen;
+    
+    height: 100vh;
+    width: 100%;
+    
+    text-align: center;
+    transition: 0.2s ease-in-out;
+}
+div.nav-items.active{
+    left: 0%;
+   
+}
+div.item{
+    margin: 20px 0;
+    font-weight: 400;
+    
+}
+div.item a{
+    color: #EFFBE3;
+}
+
+
+
+
+
+
+
+    div.title_head{
+        font-size:28px;
+        margin-left: -20px;
+    }
+    a.nav-toggle{
+        display:block;
+        margin-left: auto;
+    }
+    /* div.nav-items{
+        display:none;
+    } */
+    .title-area{
+        flex-direction: column-reverse;
+    }
+    div.main-container{
+        padding: 0 0 0 0;
+        display: flex;
+    }
+    div.profile{
+        margin-left: -50px;
+    }
+    div.social-area{
+        margin-top:-80px;
+        }
+        div.bio p{
+           
+            margin-top: 40px;
+            font-size:4vw;
+            /* line-height-step: 5px; */
+            height: auto;
+           
+        }
+        
+div.title{
+    height: auto;
+    width: auto;
+    background-color: #EFFBE3;
+}
+div.about_profile.col-sm-5{
+    height:350px;
+    width: 350px;
+    margin-right:auto;
+}
+div.about_section{
+    margin-left: -130px;
+ }
+ div.about_text{
+     font-size:4vw;
+        width:300px;
+         height: auto;
+     margin-left:15px;
+ }
+ .skill_main{
+    flex-direction: column;
+ }
+ .lang img{
+    height:25px;
+    width: 25px;
+ }
+ /* div.lang{
+    width:80%;
+   
+    margin-bottom: 15px;
+} */
+div.skill_left,
+div.skill_right{
+  width:100%;
+}
+div.icn img{
+    height:32px;
+    width:32px;
+}
+div.icn h2{
+    font-size:14px;
+}
+.edu_back .row{
+    width:100%;
+}
+div.bsc2{
+    margin-left:-50px;
+}
+.hsc{
+    margin-right: 0px;
+}
+div.carr_div{
+    flex-direction: column;
+}
+section.acv{
+    width: 100%;
+}
+div.prb_h3 h3{
+    line-height: 1;
+}
+div.ach_col{
+   align-items: center;
+   justify-content: center;
+}
+div.left_car_icn{
+    margin-right:-300px;
+}
+div.right_car_icn{
+    margin-left:-100px; 
+}
+
+}
